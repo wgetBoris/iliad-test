@@ -33,7 +33,13 @@ git clone https://github.com/wgetBoris/iliad-test.git
 cp .env.example .env
 ```
 
-4. **Avvia il server**
+4. **Esegui le migrazioni**
+
+```bash
+php artisan migrate
+```
+
+5. **Avvia il server**
 
 ```bash
 php -S localhost:8000 -t public
